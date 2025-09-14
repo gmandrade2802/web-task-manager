@@ -1,11 +1,26 @@
-# web-task-manager
-Um projeto de gerenciador de tarefas que pode ser usado como um portal ofertado pela internet ou para uso somente pela intranet.
+# Web Task Manager
 
-# Objetivo
-Grande parte do trabalho gerencial em qualquer empresa é atribuído a distribuição correta das tarefas entre seus funcionários e acompanhamento das mesmas. Com isso em mente, este projeto visa criar um gerenciamento gamificado onde o funcionário seja incentivado à resolver cada tarefa, compartilhar seu conhecimento para resolução das mesmas e competir com seus colegas, de forma saudável, para ganhar sua foto no quadro de Funcionário do Mês.
+Um gerenciador de tarefas que pode ser utilizado como **portal na internet** ou restrito ao uso interno em uma **intranet**.  
 
-# Arquivos do Projeto
-Neste primeiro momento o repositório contará com a interface web de forma estática, com páginas em HTML5, arquivos CSS e scripts JS.
+## 🎯 Objetivo
 
-# Como visualizar
-Ao baixar todos os arquivos é possível visualizar as páginas estáticas em qualquer navegador, desktop ou mobile.
+Grande parte do trabalho gerencial em qualquer empresa envolve a **distribuição correta das tarefas** entre os colaboradores e o **acompanhamento da execução**.  
+Pensando nisso, este projeto busca oferecer um **gerenciamento gamificado**, no qual:  
+
+- ✅ O funcionário é **incentivado a concluir tarefas**  
+- 📚 O compartilhamento de conhecimento é valorizado  
+- 🏆 A competição saudável é estimulada, premiando o destaque com a presença no **"Quadro do Funcionário do Mês"**  
+
+## 📂 Estrutura do Projeto
+
+Na versão inicial, o repositório conta com uma interface web **estática**, composta por:  
+
+- 🌐 Páginas em **HTML5**  
+- 🎨 Estilos em **CSS**  
+- ⚙️ Scripts em **JavaScript**  
+
+## 🚀 Como visualizar
+
+1. Clone este repositório ou faça o download dos arquivos:  
+   ```bash
+   git clone https://github.com/seu-usuario/web-task-manager.git
