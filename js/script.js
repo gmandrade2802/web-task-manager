@@ -139,6 +139,21 @@ function initTaskActions() {
             }
         });
     });
+    
+    const viewButtons = document.querySelectorAll('.btn-view-task');
+    viewButtons.forEach(button => {
+        button.addEventListener('click', function(e) {
+            e.preventDefault();
+            const taskId = this.getAttribute('data-task-id');
+            viewTask(taskId);
+        });
+    });
+    
+}
+
+// Detalhes da tarefa
+function viewTask(taskId) {
+    window.location.href = `detalhes-tarefa.html?id=${taskId}`;
 }
 
 // Editar tarefa

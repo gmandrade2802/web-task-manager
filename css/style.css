@@ -272,7 +272,7 @@ textarea.form-control {
     font-weight: 500;
     margin-bottom: 1rem;
 }
-
+/*
 .status-pending {
     background: rgba(237, 137, 54, 0.2);
     color: #ed8936;
@@ -283,6 +283,20 @@ textarea.form-control {
     background: rgba(72, 187, 120, 0.2);
     color: #48bb78;
     border: 1px solid rgba(72, 187, 120, 0.3);
+} */
+
+/* Status pendente - tom âmbar para contraste */
+.status-pending {
+    background: #ffeeba;       /* fundo amarelo claro */
+    color: #cc8400;            /* texto âmbar forte */
+    border: 1px solid #cc8400; /* borda âmbar */
+}
+
+/* Status concluída - verde azulado mais distinto */
+.status-completed {
+    background: #c6f6d5;       /* fundo verde claro */
+    color: #2f855a;            /* texto verde escuro */
+    border: 1px solid #2f855a; /* borda verde */
 }
 
 .task-actions {
@@ -322,6 +336,20 @@ textarea.form-control {
     color: #a0aec0;
     font-size: 0.9rem;
 }
+
+.btn-view-task {
+    background: transparent !important;
+    border: none !important;
+    color: #a0aec0;
+    font-size: 1.2rem;
+    padding: 0;
+    margin-left: 0.5rem;
+}
+
+.btn-view-task:hover {
+    color: #ffffff;
+}
+
 
 /* Responsividade */
 @media (max-width: 768px) {

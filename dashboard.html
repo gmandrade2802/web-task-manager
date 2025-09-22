@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard - Sistema de Gerenciamento de Tarefas</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -36,13 +37,18 @@
     <main class="main-content">
         <div class="d-flex justify-content-between align-items-center mb-4">
             <h1 class="page-title">Minhas Tarefas</h1>
-            <a href="criar-tarefa.html" class="btn btn-success">Nova Tarefa</a>
+            <a href="criar-tarefa.html" class="btn btn-success">Criar Tarefa</a>
         </div>
         
         <!-- Grid de tarefas para desktop -->
         <div class="tasks-grid d-none d-md-grid">
             <div class="task-card fade-in">
-                <div class="task-title">Tarefa 1</div>
+                <div class="task-title d-flex justify-content-between align-items-center">
+                    <span>Tarefa 1</span>
+                    <button class="btn btn-sm btn-secondary btn-view-task" data-task-id="1" title="Visualizar">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </div>
                 <div class="task-description">Descrição acessível e clara da primeira tarefa a ser realizada.</div>
                 <div class="task-status status-pending">Pendente</div>
                 <div class="task-actions">
@@ -52,7 +58,12 @@
             </div>
             
             <div class="task-card fade-in">
-                <div class="task-title">Tarefa 2</div>
+                <div class="task-title d-flex justify-content-between align-items-center">
+                    <span>Tarefa 2</span>
+                    <button class="btn btn-sm btn-secondary btn-view-task" data-task-id="2" title="Visualizar">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </div>
                 <div class="task-description">Descrição acessível e clara da segunda tarefa a ser realizada.</div>
                 <div class="task-status status-pending">Pendente</div>
                 <div class="task-actions">
@@ -62,7 +73,12 @@
             </div>
             
             <div class="task-card fade-in">
-                <div class="task-title">Tarefa 3</div>
+                <div class="task-title d-flex justify-content-between align-items-center">
+                    <span>Tarefa 3</span>
+                    <button class="btn btn-sm btn-secondary btn-view-task" data-task-id="3" title="Visualizar">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </div>
                 <div class="task-description">Descrição acessível e clara da terceira tarefa a ser realizada.</div>
                 <div class="task-status status-pending">Pendente</div>
                 <div class="task-actions">
@@ -72,7 +88,12 @@
             </div>
             
             <div class="task-card fade-in">
-                <div class="task-title">Tarefa 4</div>
+                <div class="task-title d-flex justify-content-between align-items-center">
+                    <span>Tarefa 4</span>
+                    <button class="btn btn-sm btn-secondary btn-view-task" data-task-id="4" title="Visualizar">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </div>
                 <div class="task-description">Descrição acessível e clara da quarta tarefa a ser realizada.</div>
                 <div class="task-status status-completed">Concluída</div>
                 <div class="task-actions">
@@ -82,7 +103,12 @@
             </div>
             
             <div class="task-card fade-in">
-                <div class="task-title">Tarefa 5</div>
+                <div class="task-title d-flex justify-content-between align-items-center">
+                    <span>Tarefa 5</span>
+                    <button class="btn btn-sm btn-secondary btn-view-task" data-task-id="5" title="Visualizar">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </div>
                 <div class="task-description">Descrição acessível e clara da quinta tarefa a ser realizada.</div>
                 <div class="task-status status-pending">Pendente</div>
                 <div class="task-actions">
@@ -92,7 +118,12 @@
             </div>
             
             <div class="task-card fade-in">
-                <div class="task-title">Tarefa 6</div>
+                <div class="task-title d-flex justify-content-between align-items-center">
+                    <span>Tarefa 6</span>
+                    <button class="btn btn-sm btn-secondary btn-view-task" data-task-id="6" title="Visualizar">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </div>
                 <div class="task-description">Descrição acessível e clara da sexta tarefa a ser realizada.</div>
                 <div class="task-status status-pending">Pendente</div>
                 <div class="task-actions">
